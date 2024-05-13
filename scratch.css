@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: 40px Tahoma;
+
+color: #e7e7e7;
+
+text-shadow: #000 2px 0px 2px, #000 0px 2px 2px, #000 0px -2px 2px, #000 -2px 0px 2px;
+}
+img {
+border-radius: 30px;
+height: 50%;
+    width:50%;
+}
+.btn {
+  /* сброс стилей */
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  /* переопределение стилей для ссылок */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* небольшие вертикальные отступы */
+  margin: 2px 0;
+
+  /* невидимая рамка */
+  border: solid 1px transparent;
+  border-radius: 4px;
+
+  /* для установки размеров используем паддинги */
+  padding: 0.5em 1em;
+
+  /* контрастные цвета */
+  color: #000000;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+.menu {
+     background-color: #142745;
+     height: 70px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    margin-top: 18px;
+    margin: 0 80px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+}
